@@ -51,7 +51,8 @@ class ViewController: UITableViewController {
   }
   
 //   didselecteRowAt for extract detailViewController from storyboard with using instantiateViewController with indetifire and load the images in selected image
-//   The main purpose of this is to load images in our 2nd detailViewController
+//   The main purpose of this is to load images in our 2nd detailViewController 
+  // Commite From Remote 
   override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
     
     if let vc = storyboard?.instantiateViewController(withIdentifier: "Detail") as? DetailViewController  {
